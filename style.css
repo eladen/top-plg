@@ -1,0 +1,179 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* SECTION 2 */
+
+.section2 {
+    padding: 80px;
+}
+
+.s2-info {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    margin-bottom: 32px;
+    
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.image-box {
+    max-width: 300px;
+    width: 200px;
+    height: auto;
+    width: 25%;
+}
+
+.image-box img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* HEADER */
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    background: #1F2937;
+    color: white;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav {
+    display: flex;
+    gap: 28px;
+    font-size: 18px;
+    color: #E5FAF8;
+}
+
+/* Section 1 <img class="top-image" src="./images/img0.jpg" alt="this is a placeholder for an image">*/
+
+.section1 {
+    background: #1F2937;
+    color: white;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s1-left {
+    width: 50%;
+    text-align: left;
+    padding-right: 80px;
+    max-width: 500px;
+    
+}
+
+.s1-right {
+    
+    flex: 1.5;
+    border-radius: 8px;
+    background: url(./images/img0.jpg);
+    background-size: cover;
+    border: 1px solid #E5FAF8;
+}
+
+.top-image {
+    border: 1px solid white;
+    text-align: right;
+}
+
+.s1-left button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 1%;
+    padding: 5px 25px;
+}
+
+.s1-left h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.s1-left p {
+    font-size: 18px;
+    color: #E5FAF8;
+}
+
+/* SECTION 3*/
+
+.section3 {
+    background: #E5E7EB;
+    padding: 80px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 10px;
+}
+
+.author {
+    text-align: right;
+    padding: 0 200px;
+}
+
+/* SECTION 4*/
+
+.modal {
+    margin:80px;
+    padding: 20px 80px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-evenly;
+    border-radius: 1%;
+    align-items: center;
+}
+
+.section4 button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 5px 25px;
+    font-size: 14px;
+}
+
+
+
+.modal h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer {
+    justify-content: center;
+}
